@@ -1,19 +1,23 @@
-// Check a number is positive or negative.
+// Create multiple variable and print the value of it.
 
 #include <iostream>
 using namespace std;
 int main(){
 
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
+    int Integer = 2;
+    cout << Integer << " is a integer" << endl;
 
-    if(num>0){
-        cout << "The number is positive.";
-    }
-    else{
-        cout << "The number is negative.";
-    }
+    char Character = 'A';
+    cout << Character << " is a character" << endl;
+
+    float Float = 3.14;
+    cout << Float << " is a float" << endl;
+
+    double Double = 3.14159;
+    cout << Double << " is a double" << endl;
+
+    bool Boolean = true;
+    cout << Boolean << " is a boolean" << endl;
 
     return 0;
 }
