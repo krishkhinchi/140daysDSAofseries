@@ -1,21 +1,10 @@
-// Write a program to find a maximum from given two numbers.
+// Write my first program "Namaste Duniya" in c++.
 
 #include <iostream>
 using namespace std;
 int main(){
     
-    int num1, num2;
-    cout << "Enter first number: ";
-    cin >> num1;
-    cout << "Enter second number: ";
-    cin >> num2;
-
-    if(num1>num2){
-        cout << "Maximum number is: "<< num1;
-    }
-    else{
-        cout << "Maximum number is: "<< num2;
-    }
+    cout << "Namaste Duniya";
 
     return 0;
 }
