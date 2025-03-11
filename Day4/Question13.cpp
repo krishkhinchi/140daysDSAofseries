@@ -6,16 +6,15 @@
 using namespace std;
 int main(){
 
-    char ch='A';
-    char temp;
+    char ch;
 
     for(int i=0;i<4;i++){
-        temp=65+i;
+        ch=65+i;
         for(int j=0;j<4;j++){
-            cout << temp << " ";
-            temp++;
+            cout << ch << " ";
+            ch++;
         }
-        temp++;
+        ch++;
         cout << endl;
     }
 
