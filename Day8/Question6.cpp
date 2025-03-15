@@ -10,7 +10,7 @@ int factorial(int fact){
 }
 
 int nCr(int n, int r){
-    int nCr = factorial(n)/factorial(r)*factorial(n-r);
+    int nCr = factorial(n)/(factorial(r)*factorial(n-r));
     return nCr;
 }
 
@@ -22,7 +22,7 @@ int main(){
     cout << "Enter the value of r: ";
     cin >> r;
 
-    cout << "nCr = " << nCr(n, r);
+    cout << "nCr = " << nCr(n,r);
 
     return 0;
 }
