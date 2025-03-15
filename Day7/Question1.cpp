@@ -13,6 +13,11 @@ int main()
     int temp = x;
     while (temp != 0){
         int digit = temp % 10;
+
+        if((value>INT32_MAX/10)||(value<INT32_MIN/10)){
+           cout << "Error: The reversed number is out of range.";
+        }
+
         value = (value * 10) + digit;
         temp /= 10;
     }
