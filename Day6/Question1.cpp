@@ -12,7 +12,7 @@ int main(){
     int i=0;
     while(input>0){
         int bit = input & 1;
-        value = (bit * pow(10,i))+value;
+        value = (bit * pow(10, i)) + value;
         input = input >> 1;
         i++;
     }
