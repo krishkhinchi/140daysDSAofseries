@@ -11,7 +11,7 @@ int main(){
     cout << "Enter a number: ";
     cin >> n;
 
-    cout << "Arthmatic Progras of " << n << "is " << findAP(n);
+    cout << "Arthmatic Prograss of " << n << "is " << findAP(n);
 
     return 0;
 }
