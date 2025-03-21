@@ -1,3 +1,5 @@
+// Guess the output #2
+
 #include <iostream>
 using namespace std;
 
