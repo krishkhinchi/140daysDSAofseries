@@ -1,3 +1,5 @@
+// Check element exist in array or not by function
+
 #include <iostream>
 using namespace std;
 
