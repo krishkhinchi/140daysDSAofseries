@@ -1,3 +1,5 @@
+// Find Max and Min in array by function
+
 #include <iostream>
 using namespace std;
 
