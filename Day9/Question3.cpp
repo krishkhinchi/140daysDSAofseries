@@ -1,3 +1,5 @@
+// Find sum of array by function
+
 #include <iostream>
 using namespace std;
 
