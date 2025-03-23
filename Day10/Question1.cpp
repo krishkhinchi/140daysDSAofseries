@@ -1,3 +1,5 @@
+// swapping 2 element in array by function
+
 #include <iostream>
 using namespace std;
 
