@@ -28,7 +28,7 @@ int main(){
     // int odd[6] = {1,3,5,7,9,1};
     int key = 4;
 
-    cout << key << "is at index number: " << Binary(even, 6, key) << endl;
+    cout << key << " is at index number: " << Binary(even, 6, key) << endl;
 
     return 0;
 }
