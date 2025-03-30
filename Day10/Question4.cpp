@@ -1,3 +1,5 @@
+// Find Duplicate in Array (code360)
+
 #include <iostream>
 using namespace std;
 int main(){
