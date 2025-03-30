@@ -5,7 +5,7 @@ using namespace std;
 
 int Binary(int arr[], int length, int key){
     int low = 0, high = length - 1;
-    int mid = low+high/2;
+    int mid = (low+high)/2;
 
     while(high>low){
         if(arr[mid]==key){
@@ -17,6 +17,7 @@ int Binary(int arr[], int length, int key){
         else{
             high=mid-1;
         }
+        mid = (low+high)/2;
     }
     return -1;
 }
