@@ -20,7 +20,7 @@ int main()
                     vector<int> store;
                     store.push_back(min(arr[i], arr[j], arr[k]));
                     store.push_back(max(arr[i], arr[j], arr[k]));
-                    value.push_back(store);
+                    // value.push_back(store);
                 }
             }
         }
