@@ -42,7 +42,7 @@ int main()
 {
 
     vector<int> arr;
-    arr[5] = {1, 2, 3, 4, 5};
+    // arr[5] = {1, 2, 3, 4, 5};
 
     Solution s;
     s.uniqueOccurrences(arr);
