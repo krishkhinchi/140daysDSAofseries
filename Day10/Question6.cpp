@@ -7,7 +7,7 @@ int main()
 {
 
     int s = 5;
-    int arr[4] = {1, 2, 3, 4, 5};
+    int arr[5] = {1, 2, 3, 4, 5};
     vector<vector<int>> value;
     for (int i = 0; i < 5; i++)
     {
