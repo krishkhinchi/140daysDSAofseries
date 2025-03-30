@@ -25,6 +25,7 @@ int main()
             }
         }
     }
+    
     cout << value.size();
 
     return 0;
