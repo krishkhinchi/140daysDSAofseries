@@ -13,12 +13,8 @@ int FirstPosition(int arr[], int length, int key){
             ans = mid;
             high = mid - 1; // search in left half
         }
-        else if(key>arr[mid]){
-            low=mid+1;
-        }
-        else{
-            high=mid-1;
-        }
+        else if(key>arr[mid]) low=mid+1;
+        else high=mid-1;
         mid = (low+high)/2;
     }
     return ans;
@@ -34,12 +30,8 @@ int LastPosition(int arr[], int length, int key){
             ans = mid;
             low = mid + 1; // search in right half
         }
-        else if(key>arr[mid]){
-            low=mid+1;
-        }
-        else{
-            high=mid-1;
-        }
+        else if(key>arr[mid]) low=mid+1;
+        else high=mid-1;
         mid = (low+high)/2;
     }
     return ans;
